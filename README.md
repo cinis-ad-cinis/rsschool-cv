@@ -1,1 +1,1 @@
-# rsschool-cv
+https://cinis-ad-cinis.github.io/rsschool-cv/
