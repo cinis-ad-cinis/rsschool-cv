@@ -95,17 +95,18 @@
           <section class="section" id="code">
             <h2 class="section__title">Code example:</h2>
             <pre>
-                        <code class="section__code">
-                function getRandomNumber(min, max) {
-                    min = Math.abs(min);
-                    max = Math.abs(max);
+              <code class="section__code">
+    function getRandomNumber(min, max) {
+      min = Math.abs(min);
+      max = Math.abs(max);
 
-                    if (min > max) {
-                    throw new Error('Invalid range');
-                    }
-                    return Math.floor(Math.random() * (max + 1 - min) + min);
-                }</code>
-                        </pre>
+      if (min > max) {
+      throw new Error('Invalid range');
+      }
+      return Math.floor(Math.random() * (max + 1 - min) + min);
+    }
+              </code>
+            </pre>
           </section>
 
           <section class="section" id="education">
@@ -149,8 +150,9 @@
               <li class="section__item">German (A1)</li>
             </ul>
           </section>
+        </div>
+      </div>
     </main>
-  </div>
   </div>
 
   <footer class="footer content-container">
@@ -158,12 +160,11 @@
       <img class="footer__logo" src="./assets/img/rs_school_js.svg" alt="RS School Logo" width="86" height="32">
     </a>
     <p class="footer__description">© 2022</p>
-    <a class="footer__link" href="https://github.com/cinis-ad-cinis" target="_blank">
+    <a class="footer__link footer__link-logo" href="https://github.com/cinis-ad-cinis" target="_blank">
       <img class="footer__logo" src="./assets/img/octocat.png" alt="Github octocat" width="86" height="72">
       <img class="footer__logo" src="./assets/img/github_logo.png" alt="Github logo" width="86" height="35">
     </a>
   </footer>
-  </div>
 </body>
 
 </html>

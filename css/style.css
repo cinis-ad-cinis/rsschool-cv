@@ -58,16 +58,15 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   flex-grow: 1;
   width: 1020px;
   margin: 0 auto;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* .main-container {
+.main-container {
   flex-grow: 1;
-} */
+}
 
 .header {
   min-height: 120px;
@@ -110,10 +109,15 @@
 .under-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
-  padding-top: 40px;
+  column-gap: 40px;
+  padding: 40px 0;
 }
 
+.right-wrapper {
+  padding-left: 20px;
+  border-left: 3px solid #ababab;
+
+}
 
 .section {
   margin-bottom: 20px;
@@ -143,16 +147,16 @@
   margin-bottom: 10px;
 }
 
-.section__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
-}
-
 .section__item--contacts {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+}
+
+.section__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .section__link-image {
@@ -172,9 +176,14 @@
   background-image: url("../assets/img/github_mark.png");
 }
 
+.section__description {
+  margin-bottom: 15px;
+}
+
 .main__avatar {
   position: absolute;
-  bottom: 255px;
+  display: block;
+  bottom: 270px;
 }
 
 .main__title {
@@ -216,4 +225,8 @@ section__code {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+}
+
+.footer__link {
+  text-decoration: none;
 }
