@@ -219,7 +219,7 @@
 .main__avatar {
   position: absolute;
   display: block;
-  bottom: 300px;
+  top: -85px;
 }
 
 .main__title {
